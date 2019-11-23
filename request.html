@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Courier task</title>
+		<link rel="stylesheet" href="node_modules/@clr/ui/clr-ui.css" />
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<section>
+			<div class="clr-col-lg-8">
+				<form class="clr-form">
+					<h2>Новая заявка</h2>
+					<div class="clr-form-control">
+						<label for="name" class="clr-control-label">Имя пользователя</label>
+						<div class="clr-control-container">
+							<div class="clr-input-wrapper">
+								<input type="text" id="name" placeholder="" class="clr-input">
+								<clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+							</div>
+						</div>
+					</div>
+					<div class="wrap">
+						<div class="flex">
+							<label for="from" class="clr-control-label">Откуда</label>
+							<div class="clr-toggle-wrapper">
+								<input type="checkbox" id="fromOffice" name="toggle-basic" value="option1" class="clr-toggle">
+								<label for="fromOffice">Из офиса</label>
+							</div>
+						</div>
+						<div class="clr-input-wrapper">
+							<input type="text" id="from" placeholder="Введите адрес" class="clr-input">
+							<clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+						</div>
+					</div>
+					<div class="wrap">
+						<div class="flex">
+							<label for="toPlace" class="clr-control-label">Куда</label>
+							<div class="clr-toggle-wrapper">
+								<input type="checkbox" id="toOffice" name="toggle-basic" value="option1" class="clr-toggle">
+								<label for="toOffice">В офис</label>
+							</div>
+						</div>
+						<div class="clr-input-wrapper">
+							<input type="text" id="toPlace" placeholder="Введите адрес" class="clr-input">
+							<clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+						</div>
+					</div>
+					<div class="wrap">
+						<label for="time" class="clr-control-label">Время доставки</label>
+						<div class="clr-control-container">
+							<div class="clr-input-wrapper">
+								<input type="text" id="time" placeholder="" class="clr-input">
+								<clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+							</div>
+						</div>
+					</div>
+					<div class="wrap">
+						<label for="request" class="clr-control-label">Описание заявки</label>
+						<div class="clr-control-container">
+							<div class="clr-textarea-wrapper">
+								<textarea id="request" placeholder="Опишите Ваш заказ" class="clr-textarea"></textarea>
+								<clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+							</div>
+						</div>
+					</div>
+					<div class="button-wrap">
+						<a href="index.html" class="btn btn-danger-outline">Отменить</a>
+						<button class="btn btn-success-outline">Заказать</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>

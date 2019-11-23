@@ -1,0 +1,16 @@
+section {width: 50%; margin: 0 auto; padding: 40px 0; display: flex; justify-content: center; background: #e2e6e8; min-height: 100vh; border-left: 1px solid #ccc; border-right: 1px solid #ccc; box-shadow: 4px 0 20px rgba(0, 0, 0, 0.12941176470588237), -4px 0 20px rgba(0, 0, 0, 0.12941176470588237);}
+h2 {text-align: center; width: 100%;}
+
+.clr-control-container, input {width: 100%;}
+textarea {width: 100% !important; max-width: 100% !important;}
+
+.flex {display: flex; justify-content: space-between; align-items: center; width: 100%;}
+.wrap {width: 100%; margin-top: 40px;}
+.button-wrap {margin-top: 50px; float: right;}
+
+.status {cursor: pointer; padding: 3px 5px; border-bottom: 1px solid transparent; transition: 500ms;}
+.status.perform {color: #00bb0f;}
+.status.weight {color: #f54c4c;}
+.status.process {color: #005ecc;}
+.status.done {color: #ccc;}
+.status:hover {border-bottom: 1px solid #3b484e;}
